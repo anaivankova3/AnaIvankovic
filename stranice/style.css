@@ -1,0 +1,84 @@
+@font-face  {
+    font-family: 'Font';
+    src: url(ANA1.ttf) format(truetype);
+}
+
+h1 {
+    font-family: 'Font';
+}
+
+body {
+    text-align: center;
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: white;
+}
+
+ul {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+li {
+    display: inline;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+li a {
+    font-size: 15px;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.slike {
+    box-sizing: border-box;
+    flex-basis: calc(33.333% - 20px); /* 33.333% širine minus razmak */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.slike img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.slike p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.boja_teksta {
+    background-color: white;
+}
